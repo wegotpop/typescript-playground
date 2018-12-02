@@ -1,0 +1,44 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "A Playground for typescript",
+  "author": "Amit Shah",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --hot",
+    "lint": "tslint 'src/**/*.ts*'"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@types/node": "^10.12.10",
+    "@types/react": "^16.7.8",
+    "@types/react-dom": "^16.0.11",
+    "@types/webpack-env": "^1.13.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "prettier": "^1.15.2",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
